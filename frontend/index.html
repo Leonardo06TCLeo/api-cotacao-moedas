@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Cotação de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Sistema de Cotação de Moedas</h1>
+
+        <p>Consulte a cotação atual de moedas usando uma API externa.</p>
+
+        <div class="card">
+            <label for="moeda">Escolha uma moeda:</label>
+
+            <select id="moeda">
+                <option value="USD">Dólar Americano</option>
+                <option value="EUR">Euro</option>
+                <option value="GBP">Libra Esterlina</option>
+                <option value="ARS">Peso Argentino</option>
+                <option value="BTC">Bitcoin</option>
+            </select>
+
+            <button onclick="buscarCotacao()">Buscar Cotação</button>
+
+            <div id="resultado"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

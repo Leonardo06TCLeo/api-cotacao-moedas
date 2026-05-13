@@ -1,0 +1,203 @@
+    # Currency Exchange Rate System
+
+A simple full-stack project developed with Node.js, Express, HTML, CSS and JavaScript.  
+The application consumes a public external API to display real-time currency exchange rates.
+
+## Project Overview
+
+This project was created to practice the integration between a backend and a frontend using an external public API.
+
+The backend was developed with Node.js and Express. It is responsible for consuming the external API and returning the exchange rate data to the frontend.
+
+The frontend was developed with HTML, CSS and JavaScript. It allows the user to select a currency and dynamically displays the quotation information on the screen.
+
+## Features
+
+- Public API consumption
+- Backend and frontend integration
+- Dynamic data display
+- Currency selection
+- Exchange rate consultation
+- Basic error handling
+- Responsive and clean interface
+
+## Technologies Used
+
+### Backend
+
+- Node.js
+- Express
+- Axios
+- CORS
+
+### Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+
+### External API
+
+- AwesomeAPI Currency API
+
+## Project Structure
+
+```txt
+api-cotacao-moedas
+│
+├── backend
+│   ├── server.js
+│   └── package.json
+│
+├── frontend
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+└── README.md
+
+
+How to Run the Project
+1. Clone the repository
+git clone https://github.com/Leonardo06TCLeo
+2. Access the backend folder
+cd api-cotacao-moedas/backend
+3. Install dependencies
+npm install
+4. Start the backend server
+node server.js
+
+The backend will run at:
+
+http://localhost:3000
+5. Open the frontend
+
+Open the file below using Live Server in Visual Studio Code:
+
+frontend/index.html
+
+The frontend will run at something like:
+
+http://127.0.0.1:5500/frontend/index.html
+API Route
+
+Example route:
+
+GET http://localhost:3000/cotacao/USD
+
+Example response:
+
+{
+  "USDBRL": {
+    "code": "USD",
+    "codein": "BRL",
+    "name": "Dólar Americano/Real Brasileiro",
+    "high": "5.0288",
+    "low": "4.8865",
+    "bid": "4.9987",
+    "create_date": "2026-05-13 15:21:21"
+  }
+}
+What I Learned
+
+With this project, I practiced:
+
+Creating a backend with Node.js and Express
+Consuming an external API using Axios
+Creating API routes
+Connecting frontend and backend
+Using JavaScript fetch to request data
+Displaying API data dynamically on the page
+Handling errors in a simple application
+Project Status
+
+Finished basic version.
+Future improvements may include:
+
+Search history
+More currency options
+Loading animation
+Better responsive layout
+Deployment of frontend and backend
+
+Sistema de Cotação de Moedas
+
+Projeto full-stack simples desenvolvido com Node.js, Express, HTML, CSS e JavaScript.
+A aplicação consome uma API pública externa para exibir cotações de moedas em tempo real.
+
+Visão Geral
+
+Este projeto foi criado para praticar a integração entre backend e frontend utilizando uma API pública externa.
+
+O backend foi desenvolvido com Node.js e Express. Ele é responsável por consumir a API externa e retornar os dados da cotação para o frontend.
+
+O frontend foi desenvolvido com HTML, CSS e JavaScript. Ele permite que o usuário selecione uma moeda e visualize dinamicamente as informações da cotação na tela.
+
+Funcionalidades
+Consumo de API pública
+Integração entre backend e frontend
+Exibição dinâmica de dados
+Seleção de moedas
+Consulta de cotação
+Tratamento básico de erros
+Interface simples e organizada
+Tecnologias Utilizadas
+Backend
+Node.js
+Express
+Axios
+CORS
+Frontend
+HTML5
+CSS3
+JavaScript
+API Externa
+AwesomeAPI Currency API
+Como Executar o Projeto
+1. Clone o repositório
+git clone https://github.com/seu-usuario/api-cotacao-moedas.git
+2. Acesse a pasta do backend
+cd api-cotacao-moedas/backend
+3. Instale as dependências
+npm install
+4. Inicie o servidor backend
+node server.js
+
+O backend será executado em:
+
+http://localhost:3000
+5. Abra o frontend
+
+Abra o arquivo abaixo usando a extensão Live Server no Visual Studio Code:
+
+frontend/index.html
+
+O frontend será executado em algo como:
+
+http://127.0.0.1:5500/frontend/index.html
+Rota da API
+
+Exemplo de rota:
+
+GET http://localhost:3000/cotacao/USD
+Aprendizados
+
+Com este projeto, pratiquei:
+
+Criação de backend com Node.js e Express
+Consumo de API externa com Axios
+Criação de rotas de API
+Integração entre frontend e backend
+Uso de fetch no JavaScript
+Exibição dinâmica de dados na página
+Tratamento básico de erros
+Status do Projeto
+
+Versão básica finalizada.
+Possíveis melhorias futuras:
+
+Histórico de consultas
+Mais opções de moedas
+Animação de carregamento
+Melhor responsividade
+Deploy do frontend e backend
