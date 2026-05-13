@@ -164,15 +164,6 @@ Abra o arquivo abaixo usando a extensão Live Server no Visual Studio Code:
 
 frontend/index.html
 
-O frontend será executado em algo como:
-
-http://127.0.0.1:5500/frontend/index.html
-Rota da API
-
-Exemplo de rota:
-
-GET http://localhost:3000/cotacao/USD
-Aprendizados
 
 Com este projeto, pratiquei:
 
