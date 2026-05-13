@@ -76,14 +76,6 @@ Open the file below using Live Server in Visual Studio Code:
 
 frontend/index.html
 
-The frontend will run at something like:
-
-http://127.0.0.1:5500/frontend/index.html
-API Route
-
-Example route:
-
-GET http://localhost:3000/cotacao/USD
 
 Example response:
 
